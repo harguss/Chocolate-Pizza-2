@@ -1,10 +1,11 @@
 nav ul{
   height: 40px;
 display: flex;
+list-style-type: none;
 justify-content: flex-end;
 }
 body{
-  /* display: block; */
+  /* padding-top: 40px; */
   margin: auto;
   width: 900px;
 }
@@ -36,6 +37,7 @@ div{
 #card{
   background-image: url('../images /list-bg.png');
   display: flex;
+  margin-bottom: 35px;
   /* margin-left: 100px; */
 }
 #c1 {
@@ -47,13 +49,39 @@ div{
 #author {
   display: flex;
   height: 90px;
+  padding-top: 15px;
+  padding-bottom: 60px;
 }
 button {
-  height: 35px;
+  height: 50px;
   background-color: rgb(215, 6, 6);
   color: white;
-  width: 175px;
+  width: 150px;
+  margin-top: 15px;
+  margin-left: 40px;
 }
 footer {
   text-align: center;
+  padding-bottom: 10px;
+  color: gray;
+  /* height: 400px */
+}
+#vanLady {
+padding-right: 20px;
+}
+#logo{
+  padding-bottom: 40px;
+  /* float: center; */
+
+}
+nav{
+  /* display: flex; */
+  flex-direction: row;
+  justify-content: space-between;
+  /* height: 120px; */
+  margin-top: 40px;
+  /* float: ; */
+}
+#topLogo{
+  float:left
 }
