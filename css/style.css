@@ -33,11 +33,27 @@ div{
 #c2{
   float: right;
 }
-section{
+#card{
   background-image: url('../images /list-bg.png');
   display: flex;
   /* margin-left: 100px; */
 }
 #c1 {
   margin-left: 150px;
+}
+#crossed {
+  text-decoration: line-through;
+}
+#author {
+  display: flex;
+  height: 90px;
+}
+button {
+  height: 35px;
+  background-color: rgb(215, 6, 6);
+  color: white;
+  width: 175px;
+}
+footer {
+  text-align: center;
 }
